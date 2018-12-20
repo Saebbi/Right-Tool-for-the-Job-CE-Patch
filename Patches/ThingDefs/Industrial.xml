@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName="RTFTJ_Pickaxe"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetration>0.16</armorPenetration>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName="RTFTJ_HandAxe"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetration>0.16</armorPenetration>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName="RTFTJ_Hammer"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetration>0.17</armorPenetration>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName="RTFTJ_Drill"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>12</power>
+					<cooldownTime>1.8</cooldownTime>
+					<armorPenetration>0.24</armorPenetration>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName="RTFTJ_Chainsaw"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>12</power>
+					<cooldownTime>1.8</cooldownTime>
+					<armorPenetration>0.22</armorPenetration>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName="RTFTJ_Autohammer"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>12</power>
+					<cooldownTime>1.8</cooldownTime>
+					<armorPenetration>0.22</armorPenetration>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+	
+</Patch>
